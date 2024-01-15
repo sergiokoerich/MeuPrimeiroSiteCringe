@@ -1,0 +1,63 @@
+main {
+    background-color: rgb(189, 193, 193);
+    padding: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 60rem;
+    width: 100%;
+}
+
+h1 {
+    border-bottom: 1px solid blue;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-bottom: 1rem;
+}
+
+input {
+    padding: 1rem;
+    margin-bottom: 1.6rem;
+    box-sizing: border-box;
+}
+
+.row {
+    display: flex;
+    gap: 1.6rem;
+}
+
+.col label {
+    margin-bottom: 1rem;
+}
+
+.col input {
+    width: 100%;
+}
+
+.button {
+    margin-top: 3rem;
+    width: 50%;
+    height: 5rem;
+    align-self: center;
+}
+
+@media (max-width: 768px) {
+    .col {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col input {
+        width: auto;
+    } 
+}

@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+.menu {
+    position: fixed;
+    width: 100vw;
+}
+
+.navbar-brand {
+    height: 5rem;
+}
+
+.navbar-nav a{
+    font-size: 2.5rem;
+    margin-right: 1rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: black;
+    place-items: center;
+    text-align: center;
+    padding: .5rem;
+    font-size: 1.8rem;
+}
+
+@media (max-width: 768px) {
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+        color: white;
+        place-items: center;
+        text-align: center;
+        padding: .5rem;
+        font-size: 1.8rem;
+    }
+}

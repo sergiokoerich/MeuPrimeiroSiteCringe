@@ -1,0 +1,47 @@
+.caixa {
+    background-color: rgb(189, 193, 193);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.caixa h1 {
+    font-size: 4rem;
+}
+
+.caixa p {
+    font-size: 2.3rem;
+}
+
+.caixa2 {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 7rem;
+    width: 7rem;
+}
+
+.welcome {
+    margin-bottom: .5rem;
+}
+
+
+@media (max-width: 768px) {
+    .caixa {
+        display: flex;
+        flex-direction: column;
+    }
+    .logo {
+        height: 8rem;
+        width: 8rem;
+    }
+}
